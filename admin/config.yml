@@ -36,7 +36,7 @@ collections:
         fields:
           - label: "Hero text"
             name: "items"
-            widget: "list"
+            widget: "string"
             fields:
               - { label: Hero, name: hero, widget: string }
               - { label: Intro, name: intro, widget: string }
