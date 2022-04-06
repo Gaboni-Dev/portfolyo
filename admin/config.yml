@@ -8,8 +8,8 @@ collections:
     folder: "_posts/"
     fields:
       - { name: Title }
-  - name: "config"
-    label: "Config"
+  - name: "nav"
+    label: "Nav"
     editor:
       preview: false
     files:
@@ -23,3 +23,18 @@ collections:
             fields:
               - { label: Name, name: text, widget: string }
               - { label: Link, name: link, widget: string }
+    - name: "hero"
+    label: "Hero"
+    editor:
+      preview: false
+    files:
+      - label: "Hero"
+        name: "hero"
+        file: "_data/hero.yml"
+        fields:
+          - label: "Hero text"
+            widget: "list"
+            fields:
+              - { label: Hero, name: hero, widget: string }
+              - { label: Intro, name: intro, widget: string }
+              - { label: Download, name: resume, widget: string }

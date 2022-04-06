@@ -3,19 +3,19 @@ layout: default
 hero: Home
 ---
 
-
+ 
   <div class="header-content">
     <div class="container grid-2">
       <div class="column-1">
-        <h1 class="header-title">John Dorsey</h1>
+      
+        <h1 class="header-title"> {{ site.data.hero.title }}</h1>
         <p class="text">
-          Hello, I'm Miley Brewer, web design and developer. Lorem ipsum dolor
-          sit amet consectetur adipisicing elit. Totam magni sit hic!
+          {{ site.data.hero.intro }}
         </p>
 
-        <a href="#" class="btn">Download CV</a>
+        <a href="{{ site.data.hero.resumelink}}" class="btn">{{ site.data.hero.resume}}</a>
       </div>
-
+   
       <div class="column-2 image">
         <img
           src="{{ site.baseurl }}/assets/img/shapes/points2.png"
@@ -30,6 +30,7 @@ hero: Home
       </div>
     </div>
   </div>
+ 
 </header>
 
 <section class="services section" id="services">
