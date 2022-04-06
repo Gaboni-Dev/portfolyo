@@ -8,6 +8,7 @@ collections:
     folder: "_posts/"
     fields:
       - { name: Title }
+
   - name: "nav"
     label: "Nav"
     editor:
@@ -23,6 +24,7 @@ collections:
             fields:
               - { label: Name, name: text, widget: string }
               - { label: Link, name: link, widget: string }
+
   - name: "hero"
     label: "Hero"
     editor:
