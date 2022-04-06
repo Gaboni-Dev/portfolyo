@@ -23,7 +23,7 @@ collections:
             fields:
               - { label: Name, name: text, widget: string }
               - { label: Link, name: link, widget: string }
-    - name: "hero"
+  - name: "hero"
     label: "Hero"
     editor:
       preview: false
