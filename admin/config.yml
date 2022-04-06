@@ -35,6 +35,7 @@ collections:
         file: "_data/hero.yml"
         fields:
           - label: "Hero text"
+            name: "items"
             widget: "list"
             fields:
               - { label: Hero, name: hero, widget: string }

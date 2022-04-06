@@ -1,5 +1,6 @@
-title: John Dorsey
-intro: Hello, I'm Miley Brewer, web design and developer. Lorem ipsum dolor
-  sit amet consectetur adipisicing elit. Totam magni sit hic!
-resume: Download CV
-resumelink: /
+items:
+  title: John Dorsey
+  intro: Hello, I'm Miley Brewer, web design and developer. Lorem ipsum dolor
+    sit amet consectetur adipisicing elit. Totam magni sit hic!
+  resume: Download CV
+  resumelink: /
