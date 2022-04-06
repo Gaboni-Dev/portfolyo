@@ -25,6 +25,23 @@ collections:
               - { label: Name, name: text, widget: string }
               - { label: Link, name: link, widget: string }
 
+   - name: "logo"
+    label: "Logo"
+    editor:
+      preview: false
+    files:
+      - label: "Logo"
+        name: "loo"
+        file: "_data/nav.yml"
+        fields:
+          - label: "Logo"
+            name: "logoitem"
+            widget: "list"
+            fields:
+              - { label: Name, name: logourl, widget: string }
+              - { label: Link, name: logoalt, widget: string }
+
+
   - name: "hero"
     label: "Hero"
     editor:

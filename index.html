@@ -1,6 +1,6 @@
 ---
 layout: default
-hero: Home
+
 ---
 
  
@@ -8,12 +8,12 @@ hero: Home
     <div class="container grid-2">
       <div class="column-1">
       
-        <h1 class="header-title"> {{ site.data.hero.items.title }}</h1>
+        <h1 class="header-title"> {{ site.data.hero.heroitems.herotitle }}</h1>
         <p class="text">
-          {{ site.data.hero.items.intro }}
+          {{ site.data.hero.heroitems.herointro }}
         </p>
 
-        <a href="{{ site.data.hero.items.resumelink}}" class="btn">{{ site.data.hero.items.resume}}</a>
+        <a href="{{ site.data.hero.heroitems.resumelink}}" class="btn">{{ site.data.hero.heroitems.resume}}</a>
       </div>
    
       <div class="column-2 image">
@@ -36,9 +36,9 @@ hero: Home
 <section class="services section" id="services">
   <div class="container">
     <div class="section-header">
-      <h3 class="title" data-title="What I Do">Services</h3>
+      <h3 class="title" data-title="{{ site.data.hero.serviceitems.serviceintro}}">{{ site.data.hero.serviceitems.servicetitle}}</h3>
       <p class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, vero?
+        {{ site.data.hero.serviceitems.servicedesc}}
       </p>
     </div>
 
@@ -56,12 +56,11 @@ hero: Home
               class="icon"
               alt=""
             />
-            <h3 class="title-sm">Web Design</h3>
+            <h3 class="title-sm">{{ site.data.hero.serviceitems.webdesigntitle}}</h3>
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est
-              suscipit itaque?
+              {{ site.data.hero.serviceitems.webdesigndesc}}
             </p>
-            <a href="#" class="btn small">Read more</a>
+            <!-- <a href="#" class="btn small">Read more</a> -->
           </div>
         </div>
       </div>
@@ -74,12 +73,11 @@ hero: Home
               class="icon"
               alt=""
             />
-            <h3 class="title-sm">Web Development</h3>
+            <h3 class="title-sm">{{ site.data.hero.serviceitems.webdevtitle}}</h3>
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              suscipit nobis dolore?
+              {{ site.data.hero.serviceitems.webdevdesc}}
             </p>
-            <a href="#" class="btn small">Read more</a>
+            <!-- <a href="#" class="btn small">Read more</a> -->
           </div>
         </div>
       </div>
@@ -97,12 +95,11 @@ hero: Home
               class="icon"
               alt=""
             />
-            <h3 class="title-sm">App Development</h3>
+            <h3 class="title-sm">{{ site.data.hero.serviceitems.appdevtitle}}</h3>
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum hic veniam nihil.
+              {{ site.data.hero.serviceitems.appdevdesc}}
             </p>
-            <a href="#" class="btn small">Read more</a>
+            <!-- <a href="#" class="btn small">Read more</a> -->
           </div>
         </div>
       </div>
@@ -477,26 +474,7 @@ hero: Home
         </div>
       </div>
 
-      <div class="blog-wrap">
-        <div class="blog-card">
-          <div class="blog-image">
-            <img src="{{ site.baseurl }}/assets/img/blog2.png" alt="" />
-          </div>
-
-          <div class="blog-content">
-            <div class="blog-info">
-              <h5 class="blog-date">August, 02 2020</h5>
-              <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
-            </div>
-            <h3 class="title-sm">This is a short title</h3>
-            <p class="blog-text">
-              Lorem ipsum, dolor sit amet elit. Sint atque culpa repellat sunt
-              sit amet nobis! Lorem ipsum dolor sit amet.
-            </p>
-            <a href="#" class="btn small">Read more</a>
-          </div>
-        </div>
-      </div>
+     
 
       <div class="blog-wrap">
         <div class="blog-card">

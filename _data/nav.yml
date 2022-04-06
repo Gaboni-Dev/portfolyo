@@ -13,3 +13,6 @@ items:
     link: contact
   - text: Hire me
     link: hireme
+logoitem:
+    logourl: /assets/img/logo.png
+    loggoalt: logo

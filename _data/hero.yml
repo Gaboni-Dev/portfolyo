@@ -1,6 +1,17 @@
-items:
-  title: John Dorsey
-  intro: Hello, I'm Miley Brewer, web design and developer. Lorem ipsum dolor
+heroitems:
+  herotitle: John Dorsey
+  herointro:
+    Hello, I'm Miley Brewer, web design and developer. Lorem ipsum dolor
     sit amet consectetur adipisicing elit. Totam magni sit hic!
   resume: Download CV
   resumelink: /
+serviceitems:
+  serviceintro: What Can I Do
+  servicetitle: Services
+  servicedesc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, vero?
+  webdesigntitle: Web Design
+  webdesigndesc: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est suscipit itaque?
+  webdevtitle: Web Development
+  webdevdesc: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est suscipit itaque?
+  appdevtitle: Web Development
+  appdevdesc: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est suscipit itaque?
