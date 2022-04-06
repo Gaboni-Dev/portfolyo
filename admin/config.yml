@@ -36,7 +36,6 @@ collections:
         fields:
           - label: "Logo"
             name: "logoitem"
-            widget: "list"
             fields:
               - { label: Name, name: logourl, widget: image }
               - { label: Link, name: logoalt, widget: string }
@@ -52,7 +51,6 @@ collections:
         fields:
           - label: "Hero text"
             name: "items"
-            widget: "list"
             fields:
               - { label: Hero, name: hero, widget: string }
               - { label: Intro, name: intro, widget: string }
