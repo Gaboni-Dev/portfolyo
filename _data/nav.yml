@@ -1,0 +1,15 @@
+items:
+  - text: Home
+    link: header
+  - text: Services
+    link: services
+  - text: Portfolio
+    link: portfolio
+  - text: About
+    link: about
+  - text: Testimonials
+    link: testimonials
+  - text: Contact
+    link: contact
+  - text: Hire me
+    link: hireme
