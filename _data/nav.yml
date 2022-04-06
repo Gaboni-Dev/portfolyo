@@ -13,3 +13,5 @@ items:
     link: contact
   - text: Hire me
     link: hireme
+  - text: Test
+    link: test
