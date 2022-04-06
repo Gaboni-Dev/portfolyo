@@ -38,7 +38,7 @@ collections:
             name: "logoitem"
             widget: "list"
             fields:
-              - { label: Name, name: logourl, widget: image }
+              - { label: Name, name: logourl, widget: string }
               - { label: Link, name: logoalt, widget: string }
 
   - name: "hero"
