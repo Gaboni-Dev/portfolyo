@@ -1,4 +1,6 @@
 items:
+  - text: Test
+    link: test
   - text: Home
     link: header
   - text: Services
@@ -13,5 +15,3 @@ items:
     link: contact
   - text: Hire me
     link: hireme
-  - text: Test
-    link: test
